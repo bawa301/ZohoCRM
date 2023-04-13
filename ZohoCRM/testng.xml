@@ -1,7 +1,9 @@
-<suite name="Suite" >
-  <test thread-count="5" name="Test">
+<suite name="Suite" parallel="tests">
+  <test thread-count="2" name="Test1">
     <classes>
-      <class name="com.zohocrm.testScript.Campaigns"/>
+      <class name="com.zohocrm.testScript.CreateCampaigns"/>
     </classes>
   </test> 
+  
+  
 </suite> 

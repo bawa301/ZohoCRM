@@ -77,11 +77,7 @@ public class CreateCampaigns extends Baseclass
 		
 		NewCampaign n = new NewCampaign(driver);
 		n.getCampNameText().sendKeys(data);
-		try {
-			n.getSaveBtn().click();
-			}
-			catch (Exception e) {
-			}
+		n.getSaveBtn().click();
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.titleContains("Zoho CRM - Campaign Details"));
@@ -104,11 +100,7 @@ public class CreateCampaigns extends Baseclass
 		
 		NewCampaign n = new NewCampaign(driver);
 		n.getCampNameText().sendKeys(data);
-		try {
-			n.getSaveBtn().click();
-			}
-			catch (Exception e) {
-			}
+		n.getSaveBtn().click();
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.titleContains("Zoho CRM - Campaign Details"));
@@ -130,12 +122,9 @@ public class CreateCampaigns extends Baseclass
 		c.getNewCampBtn().click();
 		
 		NewCampaign n = new NewCampaign(driver);
-		n.getCampNameText().sendKeys(data);
-		try {
+		n.getCampNameText().sendKeys(data);		
 		n.getSaveBtn().click();
-		}
-		catch (Exception e) {
-		}
+		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.titleContains("Zoho CRM - Campaign Details"));
 		String aResult = driver.getTitle();
@@ -182,11 +171,7 @@ public class CreateCampaigns extends Baseclass
 		
 		NewCampaign n = new NewCampaign(driver);
 		n.getCampNameText().sendKeys(data);
-		try {
-			n.getSaveBtn().click();
-			}
-			catch (Exception e) {
-			}
+		n.getSaveBtn().click();
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.titleContains("Zoho CRM - Campaign Details"));
@@ -209,11 +194,7 @@ public class CreateCampaigns extends Baseclass
 		
 		NewCampaign n = new NewCampaign(driver);
 		n.getCampNameText().sendKeys(data);
-		try {
-			n.getSaveBtn().click();
-			}
-			catch (Exception e) {
-			}
+		n.getSaveBtn().click();
 		
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.titleContains("Zoho CRM - Campaign Details"));
